@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_web1/home1.dart';
 
+import 'contact.dart';
+
 class Portfolio extends StatefulWidget {
   @override
   _PortfolioState createState() => _PortfolioState();
@@ -92,7 +94,11 @@ class _PortfolioState extends State<Portfolio> {
                                   ),),
                                   onPressed: (){
 
-                                    print(MediaQuery.of(context).size.width);
+                                    //print(MediaQuery.of(context).size.width);
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Contact()),
+                                    );
                                   },
                                 ),
                               ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'contact.dart';
 import 'portfolio.dart';
 
 class home1 extends StatefulWidget {
@@ -87,6 +88,10 @@ class _home1State extends State<home1> {
                                   onPressed: (){
 
                                     print(MediaQuery.of(context).size.width);
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Contact()),
+                                    );
                                   },
                                 ),
                               ),
