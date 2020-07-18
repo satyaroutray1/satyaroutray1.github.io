@@ -109,24 +109,36 @@ class _PortfolioState extends State<Portfolio> {
                         children: [
                           Row(
                             children: [
-                              /*Expanded(
-                                  flex: 1,
-                                  child: Card(
-                                      child: Image.asset('images/1.jpg', fit: BoxFit.contain,),
-                                  elevation: 20,)
-                              ),*/
+                              MyCard('images/fooddeliveryF.jpg'),
+                              MyCard('images/groceryshoppingF.jpg'),
+                              MyCard('images/amzycareA.jpg'),
+                              MyCard('images/watchF.jpg'),
+
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              MyCard('images/chatF.jpg'),
+                              MyCard('images/rainbowclosetA.jpg'),
+                              MyCard('images/locationtrackerA.jpg'),
+                              MyCard('images/tasktrackerF.jpg'),
+                            ],
+                          ),
+                          Row(
+                            children: [
+
                               MyCard('images/1.jpg'),
                               MyCard('images/2.jpg'),
-
+                              MyCard('images/moviedbF.jpg'),
                               MyCard('images/3.jpg'),
                             ],
                           ),
                           Row(
                             children: [
                               MyCard('images/4.jpg'),
-                              MyCard('images/2.jpg'),
-
-                              MyCard('images/3.jpg'),
+                              MyCard('images/alchemyA.jpg'),
+                              MyCard('images/resevationA.jpg'),
+                              MyCard('images/todoA.jpg'),
                             ],
                           ),
 
